@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "VoltVandal iPhone Lab",
+  "projectDescription": "VoltVandal iPhone Lab is a professional iPhone repair service offering screen replacements, battery swaps, water damage recovery, and diagnostics for all iPhone models.",
   "theme": "almond",
-  "name": "VoltVandal iPhone Lab",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -49,22 +47,21 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Book a Repair",
-        "href": "/booking"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get a Quote",
-      "href": "/pricing"
-    }
-  },
-  "footer": {
-    "socials": {
-      "instagram": "https://instagram.com/voltvandal"
-    }
-  }
+  "keyFeatures": [
+    "Screen replacement for all iPhone models",
+    "Battery replacement and health diagnostics",
+    "Water damage recovery and cleaning",
+    "Same-day repair turnaround",
+    "90-day repair warranty",
+    "Mail-in and walk-in repair options",
+    "Free diagnostics before repair",
+    "Genuine and OEM-quality parts"
+  ],
+  "publicApiSurface": [
+    "Repair booking form",
+    "Device diagnostic checklist",
+    "Repair status tracking",
+    "Service pricing table",
+    "Warranty claim process"
+  ]
 }
